@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>MusicOn</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+	</head>
+
+	<body>
+		<header class="py-3 mb-3 border-bottom">
+	    <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
+		    <div class="dropdown">
+		        <a href="#" class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+		        	<h1><h1 style="color: #FF7F50;">Music</h1><h1 style="color: #272932;">On</h1></h1>
+		        </a>
+		        <ul class="dropdown-menu text-small shadow" style="">
+			        <li><a class="dropdown-item active" href="./home.html" aria-current="page">Home</a></li>
+			        <li><a class="dropdown-item" href="#">Albums</a></li>
+			        <li><a class="dropdown-item" href="#">Podcasts and shows</a></li>
+			        <li><a class="dropdown-item" href="#">Made for you</a></li>
+			        <li><hr class="dropdown-divider"></li>
+			        <li><a class="dropdown-item" href="./artists.html">Artists</a></li>
+		        </ul>
+	    	</div>
+
+	    	<div class="d-flex align-items-center">
+		        <form class="w-100 me-3" role="search">
+		        	<input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+		        </form>
+
+		        <div class="flex-shrink-0 dropdown">
+			        <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+			            <img src="assets/images/profile.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+			        </a>
+			        <ul class="dropdown-menu text-small shadow" style="">
+			            <li><a class="dropdown-item" href="#">My Playlist</a></li>
+			            <li><a class="dropdown-item" href="#">Settings</a></li>
+			            <li><a class="dropdown-item" href="#">Profile</a></li>
+			            <li><hr class="dropdown-divider"></li>
+			            <li><a class="dropdown-item" href="#">Sign out</a></li>
+			        </ul>
+		        </div>
+	        </div>
+	    </div>
+	    </header>
+
+	  	<!--flexbox 1 start-->
+  		<div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/images/classical.jpeg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <a href="./IndianClassMusic.html" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Indian Classical Music</a>   
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/images/retro.jpeg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <a href="./RetroMusic.html" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Indian Retro Music</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/images/bollywood.jpeg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <a href="./BollywoodMusic.html" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bollywood<br>Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="py-3 my-4 foot">
+        <div>
+        	<div class="fcon">
+        		<h3>About</h3>
+        		<p>With MusicOn, discovering the perfect music or podcast for any occasion is effortless – whether you're using your phone, computer, tablet, or any other compatible device.</p>
+				<p>MusicOn boasts millions of tracks and episodes, ensuring that whether you're driving, exercising, socializing, or unwinding, the ideal soundtrack is readily available. Select your preferred content, or allow MusicOn to introduce you to something new.</p>
+				<p>Furthermore, you have the option to explore the playlists of friends, artists, and celebrities, or curate your own radio station and simply relax.</p>
+				<p>Let MusicOn be the soundtrack to your life. Subscribe or enjoy listening for free.</p>
+        	</div>
+        </div>
+        <p class="text-center text-body-secondary">© 2023 Musicon Company, Inc</p>
+      </footer>
+
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	</body>
+</html>
